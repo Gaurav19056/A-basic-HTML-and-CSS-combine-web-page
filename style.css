@@ -3,6 +3,7 @@ div p:first-child {
     background-color: yellow;
     padding: 10px;
     margin-bottom: 5px;
+    box-shadow: 0 5px 7px grey;
 }
 
 div p:not(:first-child) {
@@ -10,6 +11,10 @@ div p:not(:first-child) {
     background-color: blue;
     padding: 10px;
     margin-bottom: 5px;
+    box-shadow: 0 5px 7px grey;
+}
+div p:hover{
+    box-shadow: 0 10px 20px 4px grey;
 }
 
 body {
