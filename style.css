@@ -15,6 +15,7 @@ div p:not(:first-child) {
 }
 div p:hover{
     box-shadow: 0 10px 20px 4px grey;
+    cursor: pointer;
 }
 
 body {
